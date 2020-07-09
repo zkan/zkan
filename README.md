@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+💬 Ask me anything about software engineering, data engineering, data science, and Python! 🐍
+
 <!--
 **zkan/zkan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
