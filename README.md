@@ -2,6 +2,8 @@
 
 💬 Ask me anything about software engineering, data engineering, data science, and Python! 🐍
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=zkan)](https://github.com/ryo-ma/github-profile-trophy)
+
 <!--
 **zkan/zkan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
