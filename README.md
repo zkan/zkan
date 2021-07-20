@@ -1,31 +1,39 @@
-### Hi there 👋
+# Hi there 👋
+
+```py
+from dataclasses import dataclass, field
+from typing import List
+
+
+@dataclass
+class DataCraftsman:
+    name: str = "Kan Ouivirach"
+    pronouns: str = "he/him/his"
+    current_role: str = "Senior Data Architect"
+    passions: List[str] = field(
+        default_factory=lambda: [
+            "software-engineering",
+            "data-engineering",
+            "data-science",
+        ]
+    )
+
+    def say_hi(self):
+        return "Hi! Thanks for dropping by. :-)"
+
+
+me = DataCraftsman()
+print(me.say_hi())
+```
 
 💬 Ask me anything about software engineering, data engineering, data science, and Python! 🐍
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=zkan)](https://github.com/ryo-ma/github-profile-trophy)
+## 📝 Blogs
 
----
+- Hashnode: https://zkan.hashnode.dev/
+- Medium: https://zkan.medium.com/
+- DEV Community: https://dev.to/zkan/
 
-<div>
-  <img height="170" align="left" src="https://github-readme-stats.vercel.app/api?username=zkan&count_private=true&include_all_commits=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zkan&layout=compact" />
-</div>
-
-<!--
-**zkan/zkan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
----
+## 🙇🏻‍♂️ Support
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/zkan)
