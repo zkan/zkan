@@ -1,16 +1,15 @@
-// index.js
-const Mustache = require('mustache');
-const fs = require('fs');
-const MUSTACHE_MAIN_DIR = './main.mustache';
+// Credit: https://github.com/thmsgbrt/thmsgbrt
 
-/**
-  * DATA is the object that contains all
-  * the data to be provided to Mustache
-  * Notice the "name" and "date" property.
-*/
+const Mustache = require('mustache')
+const fetch = require('node-fetch')
+const convert = require('xml-js')
+const fs = require('fs')
+
+const MUSTACHE_MAIN_DIR = './main.mustache'
+const HASHNODE_RSS_FEED_URL = 'https://zkan.hashnode.dev/rss.xml'
+
 let DATA = {
-  name: 'Kan',
-  date: new Date().toLocaleDateString('en-GB', {
+  refresh_date: new Date().toLocaleDateString('en-GB', {
     weekday: 'long',
     month: 'long',
     day: 'numeric',
@@ -19,19 +18,38 @@ let DATA = {
     timeZoneName: 'short',
     timeZone: 'Asia/Bangkok',
   }),
-};
-
-/**
-  * A - We open 'main.mustache'
-  * B - We ask Mustache to render our file with the data
-  * C - We create a README.md file with the generated output
-  */
-function generateReadMe() {
-  fs.readFile(MUSTACHE_MAIN_DIR, (err, data) =>  {
-    if (err) throw err;
-    const output = Mustache.render(data.toString(), DATA);
-    fs.writeFileSync('README-new.md', output);
-  });
 }
 
-generateReadMe();
+async function setHashnodeLatestPosts() {
+  await fetch(HASHNODE_RSS_FEED_URL)
+    .then(r => r.text())
+    .then(r => {
+      let data = JSON.parse(convert.xml2json(r))
+
+      let post_1 = data.elements[0].elements[0].elements[8]
+      let post_2 = data.elements[0].elements[0].elements[9]
+      let post_3 = data.elements[0].elements[0].elements[10]
+
+      DATA.post_title_1 = post_1.elements[0].elements[0].cdata
+      DATA.post_link_1 = post_1.elements[2].elements[0].text
+      DATA.post_title_2 = post_2.elements[0].elements[0].cdata
+      DATA.post_link_2 = post_2.elements[2].elements[0].text
+      DATA.post_title_3 = post_3.elements[0].elements[0].cdata
+      DATA.post_link_3 = post_3.elements[2].elements[0].text
+    })
+}
+
+async function generateReadMe() {
+  await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) =>  {
+    if (err) throw err
+    const output = Mustache.render(data.toString(), DATA)
+    fs.writeFileSync('README.md', output)
+  })
+}
+
+async function action() {
+  await setHashnodeLatestPosts()
+  await generateReadMe()
+}
+
+action()
