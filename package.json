@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/zkan/zkan#readme",
   "dependencies": {
-    "mustache": "^4.2.0"
+    "mustache": "^4.2.0",
+    "node-fetch": "^2.6.1",
+    "xml-js": "^1.6.11"
   }
 }
