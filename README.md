@@ -34,6 +34,18 @@ print(me.say_hi())
 - Medium: https://zkan.medium.com/
 - DEV Community: https://dev.to/zkan/
 
+## ✍🏻 My Latest Posts on Hashnode
+
+- <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;dbt-models-and-tests" target="_blank">การจัดการโมเดลใน dbt และการทดสอบ</a>
+- <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;get-started-with-dbt" target="_blank">เริ่มต้นกับ dbt</a>
+- <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;what-is-dbt" target="_blank">dbt คืออะไรนะ?</a>
+
 ## 🙇🏻‍♂️ Support
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/zkan)
+
+---
+
+<p align="center">This <i>README</i> file is generated <b>every 6 hours</b>!</br />
+Last refresh: Saturday, 24 July, 22:30 GMT+7<br />
+This profile is inspired by <a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Thomas Guibert</a></p>
