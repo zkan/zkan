@@ -29,6 +29,8 @@ async function setHashnodeLatestPosts() {
       let post_1 = data.elements[0].elements[0].elements[8]
       let post_2 = data.elements[0].elements[0].elements[9]
       let post_3 = data.elements[0].elements[0].elements[10]
+      let post_4 = data.elements[0].elements[0].elements[11]
+      let post_5 = data.elements[0].elements[0].elements[12]
 
       DATA.post_title_1 = post_1.elements[0].elements[0].cdata
       DATA.post_link_1 = post_1.elements[2].elements[0].text
@@ -36,6 +38,10 @@ async function setHashnodeLatestPosts() {
       DATA.post_link_2 = post_2.elements[2].elements[0].text
       DATA.post_title_3 = post_3.elements[0].elements[0].cdata
       DATA.post_link_3 = post_3.elements[2].elements[0].text
+      DATA.post_title_4 = post_4.elements[0].elements[0].cdata
+      DATA.post_link_4 = post_4.elements[2].elements[0].text
+      DATA.post_title_5 = post_5.elements[0].elements[0].cdata
+      DATA.post_link_5 = post_5.elements[2].elements[0].text
     })
 }
 
