@@ -36,9 +36,9 @@ print(me.say_hi())
 
 ## ✍🏻 My Latest Posts on Hashnode
 
+- <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;my-mac-setup">My Mac Setup</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;dbt-models-and-tests">การจัดการโมเดลใน dbt และการทดสอบ</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;get-started-with-dbt">เริ่มต้นกับ dbt</a>
-- <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;what-is-dbt">dbt คืออะไรนะ?</a>
 
 ## 🙇🏻‍♂️ Support
 
@@ -47,5 +47,5 @@ print(me.say_hi())
 ---
 
 <p align="center">This <i>README</i> file is generated <b>every day</b>!</br />
-Last refresh: Sunday, 25 July, 08:57 GMT+7<br />
+Last refresh: Monday, 26 July, 07:39 GMT+7<br />
 This profile is inspired by <a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Thomas Guibert</a></p>
