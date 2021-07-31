@@ -36,11 +36,11 @@ print(me.say_hi())
 
 ## ✍🏻 My Latest Posts on Hashnode
 
+- <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;running-bigquery-query-from-airflow-using-bigqueryexecuteoperator">Running BigQuery Query from Airflow using BigQueryExecuteOperator</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;data-mesh-paradigm-shift-in-data-platform-architecture">เกริ่นแนวคิด Data Mesh จากวีดีโอ Data Mesh Paradigm Shift in Data Platform Architecture</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;my-mac-setup">My Mac Setup</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;dbt-models-and-tests">การจัดการโมเดลใน dbt และการทดสอบ</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;get-started-with-dbt">เริ่มต้นกับ dbt</a>
-- <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;what-is-dbt">dbt คืออะไรนะ?</a>
 
 ## 🙇🏻‍♂️ Support
 
@@ -49,5 +49,5 @@ print(me.say_hi())
 ---
 
 <p align="center">This <i>README</i> file is generated <b>every day</b>!</br />
-Last refresh: Friday, 30 July, 07:40 GMT+7<br />
+Last refresh: Saturday, 31 July, 07:40 GMT+7<br />
 This profile is inspired by <a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Thomas Guibert</a></p>
