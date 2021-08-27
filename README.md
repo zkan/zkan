@@ -36,11 +36,11 @@ print(me.say_hi())
 
 ## ✍🏻 My Latest Posts on Hashnode
 
+- <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;data-pipelines-pocket-reference-moving-and-processing-data-for-analytics">รีวีวหนังสือ &quot;Data Pipelines Pocket Reference: Moving and Processing Data for Analytics&quot;</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;configuration-file-parser-python">ลองเล่น  Configuration File Parser ของ Python</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;10-data-engineering-channels-i-recommend">10 Data Engineering Channels I Recommend</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;running-bigquery-query-from-airflow-using-bigqueryexecuteoperator">Running BigQuery Query from Airflow using BigQueryExecuteOperator</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;data-mesh-paradigm-shift-in-data-platform-architecture">เกริ่นแนวคิด Data Mesh จากวีดีโอ Data Mesh Paradigm Shift in Data Platform Architecture</a>
-- <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;my-mac-setup">My Mac Setup</a>
 
 ## 🙇🏻‍♂️ Support
 
@@ -49,5 +49,5 @@ print(me.say_hi())
 ---
 
 <p align="center">This <i>README</i> file is generated <b>every day</b>!</br />
-Last refresh: Thursday, 26 August, 07:37 GMT+7<br />
+Last refresh: Friday, 27 August, 07:42 GMT+7<br />
 This profile is inspired by <a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Thomas Guibert</a></p>
