@@ -36,11 +36,11 @@ print(me.say_hi())
 
 ## ✍🏻 My Latest Posts on Hashnode
 
+- <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;banking-system-downtimes-in-thailand-64">ธนาคารไหนทำระบบได้ดีที่สุด? จากข้อมูลระบบออนไลน์ธนาคารไหนล่มมากที่สุดในรอบครึ่งปี 64</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;data-mesh-vs-kitchen">Data Mesh กับห้องครัว 🍳👩🏻‍🍳</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;dagster">มาลองเล่น Dagster เบื้องต้นกัน</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;my-desk-setup-for-remote-work">My Desk Setup for Remote Work</a>
 - <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;scraping-data-engineer-jobs-indeed">Scraping ข้อมูลประกาศรับสมัคร Data Engineer บนเว็บ Indeed.com</a>
-- <a href="https:&#x2F;&#x2F;zkan.hashnode.dev&#x2F;data-pipelines-pocket-reference-moving-and-processing-data-for-analytics">รีวีวหนังสือ &quot;Data Pipelines Pocket Reference: Moving and Processing Data for Analytics&quot;</a>
 
 ## 🙇🏻‍♂️ Support
 
@@ -49,5 +49,5 @@ print(me.say_hi())
 ---
 
 <p align="center">This <i>README</i> file is generated <b>every day</b>!</br />
-Last refresh: Saturday, 16 October, 07:48 GMT+7<br />
+Last refresh: Sunday, 17 October, 07:43 GMT+7<br />
 This profile is inspired by <a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Thomas Guibert</a></p>
