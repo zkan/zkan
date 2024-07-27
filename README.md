@@ -9,7 +9,7 @@ from typing import List
 class DataCraftsman:
     name: str = "Kan Ouivirach"
     pronouns: str = "he/him/his"
-    current_role: str = "Senior Data Architect"
+    current_role: str = "Data Product Developer and Technical Coach"
     passions: List[str] = field(
         default_factory=lambda: [
             "software-engineering",
