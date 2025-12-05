@@ -1,37 +1,37 @@
 # Hi there 👋
 
-```py
-from dataclasses import dataclass, field
-from typing import List
+```ruby
+class DataCraftsman
+  attr_accessor :name, :pronouns, :current_role, :passions
 
+  def initialize(
+    name: "Kan Ouivirach",
+    pronouns: "he/him/his",
+    current_role: "Data Product Developer and Technical Coach",
+    passions: ["software-engineering", "data-engineering", "data-science"]
+  )
+    @name = name
+    @pronouns = pronouns
+    @current_role = current_role
+    @passions = passions
+  end
 
-@dataclass
-class DataCraftsman:
-    name: str = "Kan Ouivirach"
-    pronouns: str = "he/him/his"
-    current_role: str = "Data Product Developer and Technical Coach"
-    passions: List[str] = field(
-        default_factory=lambda: [
-            "software-engineering",
-            "data-engineering",
-            "data-science",
-        ]
-    )
+  def say_hi
+    "Hi! Thanks for dropping by. :-)"
+  end
+end
 
-    def say_hi(self):
-        return "Hi! Thanks for dropping by. :-)"
-
-
-me = DataCraftsman()
-print(me.say_hi())
+me = DataCraftsman.new
+puts me.say_hi
 ```
 
-💬 Ask me anything about software engineering, data engineering, data science, and Python! 🐍
+💬 Ask me anything about software engineering, data engineering, data science,
+Ruby on Rails 💎 and Python! 🐍
 
 ## 📝 Blogs
 
-- Hashnode: https://zkan.hashnode.dev/
 - Medium: https://zkan.medium.com/
+- Hashnode: https://zkan.hashnode.dev/
 - DEV Community: https://dev.to/zkan/
 
 ## ✍🏻 My Latest Posts on Hashnode
